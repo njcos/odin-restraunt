@@ -16,6 +16,11 @@ body{
     font-style: normal;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    font-family: "Odin", serif;
+}
+
+
 #content{
     position: relative;
 }
@@ -47,7 +52,7 @@ body{
     background-color: rgba(255,255,255,0);
     font-size: 1rem;
     font-weight: 100;
-    font-family: serif;
+    font-family: "Odin", serif;
     color: white;
     border-bottom: 1px solid rgba(241, 238, 225, 0);
 
@@ -90,12 +95,15 @@ body{
 }
 
 .hero-logo {
+    flex-shrink: 0;
     width: 10rem
 
 }
 
 .hero-text h1 {
     font-size: 10rem;
+    font-family: "Odin", serif;
+    font-weight: 600;
     color: white;
 }
 
@@ -153,3 +161,22 @@ body{
     font-size: 2rem;
     color: white;
 }
+.about-info {
+    width: 70vw;
+}
+
+.about-info{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: rgba(0,0,0,.5);
+    padding: 3rem;
+    border-radius: .5rem;
+
+}
+
+.about-info h2 {
+    font-size: 2rem;
+}
+
